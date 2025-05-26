@@ -81,7 +81,7 @@ const Search = () => {
     <div className='main'>
       <div className='btn-container'>
         <button className='btn' onClick={() => navigate('/')}>🏠 Home</button>
-        <button className='btn mx-3' onClick={() => navigate('/saved')}>💾 Saved Meals</button>
+        {/* <button className='btn mx-3' onClick={() => navigate('/saved')}>💾 Saved Meals</button> */}
       </div>
       <div className='row-container'>
         <div className='meal-view card col-md-11'>
