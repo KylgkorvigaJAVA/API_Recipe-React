@@ -13,9 +13,6 @@ const Home = () => {
             <button className="btn button mx-2 mt-5" onClick={() => navigate('/search')}>
               Search Recipes
             </button>
-            {/* <button className="btn button mx-3 mt-5" onClick={() => navigate('/saved')}>
-              Saved Recipes
-            </button> */}
           </div>
         </div>
       </div>
